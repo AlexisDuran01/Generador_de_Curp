@@ -1,0 +1,114 @@
+.mt-navbar {
+    margin-top: 80px; /* Ajusta el valor según el tamaño de tu barra de navegación */
+  }
+
+
+  .btn-custom {
+    background-color:  #CE1125;;
+        color: rgb(255, 255, 255);
+        height: 60px;
+        width: 110px;
+  }
+
+  .main-navigation {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+.secundary-navigation {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px -6px 12px -2px, rgba(0, 0, 0, 0.3) 0px -3px 7px -3px;
+}
+
+.contendor-Result {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+  .ima-contenedor {
+ 
+    height: 16px;
+    width: 16px;
+    margin: 17px;
+    
+}
+
+.ima-tamaño {
+ 
+    height: 100%;
+    width: 100%;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.limited-width {
+  max-width: 950px; /* Ajusta el ancho máximo */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.limited-width2 {
+  max-width: 950px; /* Ajusta el ancho máximo */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+  #lista3 {
+    counter-reset: li; 
+    list-style: none; 
+    list-style: decimal; 
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+#lista3 ol {
+    margin: 0 0 0 2em; 
+}
+
+#lista3 li{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    padding: .4em;
+    margin: .5em 0 .5em 2.5em;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    transition: all .3s ease-out;   
+}
+
+#lista3 li:hover{
+    background: #eee;
+}   
+
+#lista3 li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #fae18e;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+#lista3 li:after{
+    position: absolute; 
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;               
+}
+
+#lista3 li:hover:after{
+    left: -.5em;
+    border-left-color: #fa8072;             
+}
